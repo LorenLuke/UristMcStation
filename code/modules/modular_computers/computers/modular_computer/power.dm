@@ -49,3 +49,8 @@
 	if(battery_power(power_usage))
 		return
 	power_failure()
+
+////
+/obj/item/modular_computer/handle_power()
+	var/power_usage
+	var/

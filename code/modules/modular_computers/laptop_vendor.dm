@@ -15,7 +15,7 @@
 
 	// Utility vars
 	var/state = 0 							// 0: Select device type, 1: Select loadout, 2: Payment, 3: Thankyou screen
-	var/devtype = 0 						// 0: None(unselected), 1: Laptop, 2: Tablet
+	var/devtype = 0 						// 0: None(unselected), 1: Laptop, 2: Tablet, 3: USB
 	var/total_price = 0						// Price of currently vended device.
 
 	// Device loadout
